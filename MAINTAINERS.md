@@ -11,14 +11,14 @@ This table must agree with the root `OWNERS` file and, while the project
 lives in the KubeStellar org, with the authoritative Maintainer Committee
 table in
 [kubestellar/kubestellar GOVERNANCE-HIVE.md](https://github.com/kubestellar/kubestellar/blob/main/GOVERNANCE-HIVE.md).
-Any drift is a governance bug — fix it by PR immediately (see
+Any drift is a governance bug - fix it by PR immediately (see
 GOVERNANCE.md, "Authoritative records and the OWNERS file").
 
 | Name            | GitHub        | Role             | Focus areas                      | Affiliation    |
 | --------------- | ------------- | ---------------- | -------------------------------- | -------------- |
 | Andy Anderson   | @clubanderson | Chief Maintainer | hub, spokes, dashboard, releases | IBM            |
-| James Reilly    | @hanthor      | Maintainer       | TODO                             | Universal Blue |
-| Doug Baggett    | @Danathar     | Maintainer       | TODO                             | Independent    |
+| James Reilly    | @hanthor      | Maintainer       | standalone/spoke deployments, packaging, community | Universal Blue |
+| Doug Baggett    | @Danathar     | Maintainer       | spoke operations, testing, adopter feedback | Independent    |
 
 All three Maintainers are also approvers and reviewers in the root
 `OWNERS` file.
@@ -39,19 +39,19 @@ repositories must be registered here with its responsible human.
 
 ## Current Reviewers
 
-Reviewers who are not Maintainers are listed here; today there are none —
+Reviewers who are not Maintainers are listed here; today there are none -
 the three Maintainers above serve as the reviewers/approvers of record
 (per `OWNERS`).
 
 | Name | GitHub | Areas |
 | ---- | ------ | ----- |
-| —    | —      | —     |
+| -    | -      | -     |
 
 ## Emeritus
 
 | Name | GitHub | Former role |
 | ---- | ------ | ----------- |
-| —    | —      | —           |
+| -    | -      | -           |
 
 Emeritus members are recognized former Maintainers/Reviewers. They keep no
 special access or vote, are credited in release notes on request, and may
@@ -67,7 +67,7 @@ Each level includes the expectations of the levels below it. All criteria
 refer to activity in the project's own repositories, visible on GitHub.
 
 > **AI-agent note (applies to every level):** activity performed by an AI
-> agent — including agents you operate — does **not** count toward your
+> agent - including agents you operate - does **not** count toward your
 > promotion criteria. Only work you personally authored or reviews you
 > personally performed counts. Agents themselves cannot hold any ladder
 > role.
@@ -129,12 +129,12 @@ Requirements:
 - Commitment to remain responsive (reviews and security response) on a
   roughly weekly basis.
 - Nominated by an existing Maintainer; confirmed by **lazy consensus of
-  the Maintainer Committee (7 days)** — any Maintainer may object and
+  the Maintainer Committee (7 days)** - any Maintainer may object and
   convert the decision to a simple-majority vote.
 
 Process: the nominating Maintainer opens a PR updating **all maintainer
-records together** — this table, the root `OWNERS` file, and (while it
-remains authoritative) the upstream GOVERNANCE-HIVE.md table — linking
+records together** - this table, the root `OWNERS` file, and (while it
+remains authoritative) the upstream GOVERNANCE-HIVE.md table - linking
 the nomination thread. Ladder advancement requests are reviewed by the
 Committee at least monthly. On approval, the Chief Maintainer grants
 org/repo permissions and updates CNCF maintainer lists.
