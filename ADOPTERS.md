@@ -21,12 +21,14 @@ workloads).
 
 | Organization | Contact (GitHub handle or email) | Level | Since | Use case / notes |
 | ------------ | -------------------------------- | ----- | ----- | ---------------- |
-| TODO-Org-A   | @todo-contact-a                  | production  | 2025-Q4 | TODO: e.g. agent fleet maintaining internal service repos |
-| TODO-Org-B   | @todo-contact-b                  | development | 2026-Q1 | TODO: e.g. evaluating hosted spokes for CI remediation |
-| TODO-Org-C   | @todo-contact-c                  | evaluation  | 2026-Q2 | TODO |
+| [Danathar](https://github.com/Danathar) | @Danathar | development | 2026 | Autonomous development operations for Danathar projects |
+| [Frostyard](https://github.com/frostyard) | https://github.com/frostyard | development | 2026 | Autonomous development operations for frostyard projects |
+| [KubeStellar Console](https://github.com/kubestellar/console) | https://github.com/kubestellar/console | production | 2026-Q2 | Autonomous maintenance of the Console codebase — issue triage, fixes, review, and merge |
+| [Open Horizon](https://github.com/open-horizon) | https://github.com/open-horizon | development | 2026 | Standardization and enforcement for code consistency |
+| [Open Horizon Services](https://github.com/open-horizon-services) | https://github.com/open-horizon-services | development | 2026 | Ensuring code consistency over community contributions |
+| [Tuna OS](https://github.com/tuna-os) | https://github.com/tuna-os | development | 2026 | Autonomous development operations for tuna-os projects |
 
-> Placeholder rows above are illustrative only — the operator replaces
-> them with real, self-reported adopters before this file is published.
 > Public entries must not include private infrastructure details
 > (internal cluster names, hostnames) or personal @-mentions of
-> individuals who have not consented.
+> individuals who have not consented. Maintainers may verify entries
+> before merge.
