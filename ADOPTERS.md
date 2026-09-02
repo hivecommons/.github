@@ -21,7 +21,7 @@ workloads).
 
 | Organization | Contact (GitHub handle or email) | Level | Since | Use case / notes |
 | ------------ | -------------------------------- | ----- | ----- | ---------------- |
-| [Danathar](https://github.com/Danathar) | @Danathar | development | 2026 | Autonomous development operations for Danathar projects |
+| [Danathar](https://github.com/Danathar) | https://github.com/Danathar | development | 2026 | Autonomous development operations for Danathar projects |
 | [Frostyard](https://github.com/frostyard) | https://github.com/frostyard | development | 2026 | Autonomous development operations for frostyard projects |
 | [KubeStellar Console](https://github.com/kubestellar/console) | https://github.com/kubestellar/console | production | 2026-Q2 | Autonomous maintenance of the Console codebase — issue triage, fixes, review, and merge |
 | [Open Horizon](https://github.com/open-horizon) | https://github.com/open-horizon | development | 2026 | Standardization and enforcement for code consistency |
