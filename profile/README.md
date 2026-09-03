@@ -6,7 +6,7 @@
 
 | Project | What it is | Where it lives |
 |---|---|---|
-| **Hive** | Agent fleet orchestrator (hub + spokes) — the flagship and UI/delivery surface for the family | [kubestellar/hive](https://github.com/kubestellar/hive) *(transfer to this org in progress — [public consensus](https://github.com/kubestellar/kubestellar/issues/3986))* |
+| **Hive** | Agent fleet orchestrator (hub + spokes) — the flagship and UI/delivery surface for the family | [hivecommons/hive](https://github.com/hivecommons/hive) |
 | **pluk** | Pub-sub event streaming for tmux sessions running AI agents | [hivecommons/pluk](https://github.com/hivecommons/pluk) · npm `@hivecommons/pluk` |
 | **promptargs** | Prompt templates with variable substitution | [hivecommons/promptargs](https://github.com/hivecommons/promptargs) · npm `@hivecommons/promptargs` |
 | **rationguard** | Real-time rationalization detection for agent output | [hivecommons/rationguard](https://github.com/hivecommons/rationguard) · npm `@hivecommons/rationguard` |
@@ -22,5 +22,5 @@ Hive is maintained by a three-member Maintainer Committee spanning three organiz
 
 ## Get involved
 
-- Issues and contributions: [kubestellar/hive](https://github.com/kubestellar/hive)
+- Issues and contributions: [hivecommons/hive](https://github.com/hivecommons/hive)
 - Conduct: this community follows the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/main/code-of-conduct.md)
