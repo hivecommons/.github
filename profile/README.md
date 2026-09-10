@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hivecommons/.github/main/profile/assets/hive-commons-logo.png" alt="Hive Commons" width="160" height="160">
+</p>
+
 # Hive Commons
 
 **Hive Commons** is the umbrella community for **Hive** — an AI-agent fleet orchestration system that runs governed swarms of coding agents against real repositories: a multi-tenant hub, hosted spokes, ACMM maturity-model governance, audited agent attribution, and formally verified coordination protocols.
