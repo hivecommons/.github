@@ -1,0 +1,80 @@
+name: "Propose a project to join Hive Commons"
+description: "Bring a like-minded open source project into the Hive Commons family."
+title: "[project proposal] <project name>"
+labels: ["project-proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest in Hive Commons. We welcome open source projects
+        that remove friction from working with AI coding agents — orchestration,
+        governance, attribution, tooling, specs, observability — and that share
+        our values: openness, human accountability, and governance enforced in code.
+
+        Fill in what you can. Maintainers decide by lazy consensus per
+        [GOVERNANCE.md](https://github.com/hivecommons/.github/blob/main/GOVERNANCE.md);
+        we'll reply on this issue and, if it's a fit, invite you to a community meeting.
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: Repository URL
+      placeholder: https://github.com/org/project
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What does the project do?
+      description: One or two paragraphs. What friction does it remove for people working with coding agents?
+    validations:
+      required: true
+  - type: textarea
+    id: fit
+    attributes:
+      label: How does it fit the Hive Commons family?
+      description: Relationship to Hive, Spektacular, hotshot, pluk, promptargs, rationguard, or dibs — or the gap it fills.
+    validations:
+      required: true
+  - type: dropdown
+    id: license
+    attributes:
+      label: License
+      description: Hive Commons repositories are Apache 2.0.
+      options:
+        - Apache-2.0
+        - Other OSI-approved (please note below; relicensing may be required)
+    validations:
+      required: true
+  - type: checkboxes
+    id: commitments
+    attributes:
+      label: Community commitments
+      options:
+        - label: Willing to adopt DCO sign-off on every commit
+          required: true
+        - label: Willing to follow the CNCF Code of Conduct
+          required: true
+        - label: Willing to move the repository under the hivecommons GitHub organization (or discuss an alternative)
+        - label: At least one maintainer will attend the biweekly community meeting for the first quarter
+  - type: textarea
+    id: maintainers
+    attributes:
+      label: Maintainers
+      description: GitHub handles and affiliations of the people who will maintain the project.
+    validations:
+      required: true
+  - type: textarea
+    id: users
+    attributes:
+      label: Adoption and maturity
+      description: Who uses it today? Release cadence, CI, tests, docs status.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
