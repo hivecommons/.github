@@ -42,8 +42,8 @@ v4 is the default branch and the supported stable line.
 Candidate themes, deliberately not committed:
 
 - Hive as the delivery surface for the wider Hive Commons family:
-  first-class integrations for pluk, rationguard, promptargs, and
-  hotshot.
+  first-class integrations for pluk, spektacular, rationguard,
+  promptargs, and hotshot.
 - Per-repository and per-agent cost attribution with budget governance
   (spend caps, alerts, and audit-grade reporting).
 - Broader model/provider support with per-agent model policy and

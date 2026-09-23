@@ -11,6 +11,7 @@
 | Project | What it is | Where it lives |
 |---|---|---|
 | **Hive** | Agent fleet orchestrator (hub + spokes) — the flagship and UI/delivery surface for the family | [hivecommons/hive](https://github.com/hivecommons/hive) |
+| **Spektacular** | Spec-driven development for AI coding agents — a markdown spec becomes a reviewed plan and an agent-driven implementation | [hivecommons/spektacular](https://github.com/hivecommons/spektacular) · [spektacular.dev](https://spektacular.dev) |
 | **pluk** | Pub-sub event streaming for tmux sessions running AI agents | [hivecommons/pluk](https://github.com/hivecommons/pluk) · npm `@hivecommons/pluk` |
 | **promptargs** | Prompt templates with variable substitution | [hivecommons/promptargs](https://github.com/hivecommons/promptargs) · npm `@hivecommons/promptargs` |
 | **rationguard** | Real-time rationalization detection for agent output | [hivecommons/rationguard](https://github.com/hivecommons/rationguard) · npm `@hivecommons/rationguard` |
