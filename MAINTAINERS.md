@@ -7,10 +7,8 @@ defines how contributors advance through the ladder. Governance rules
 
 ## Current Maintainers
 
-This table must agree with the root `OWNERS` file and, while the project
-lives in the KubeStellar org, with the authoritative Maintainer Committee
-table in
-[kubestellar/kubestellar GOVERNANCE-HIVE.md](https://github.com/kubestellar/kubestellar/blob/main/GOVERNANCE-HIVE.md).
+This table must agree with the root `OWNERS` file and the maintainer table in
+[hivecommons/hive GOVERNANCE.md](https://github.com/hivecommons/hive/blob/v5/GOVERNANCE.md).
 Any drift is a governance bug - fix it by PR immediately (see
 GOVERNANCE.md, "Authoritative records and the OWNERS file").
 
@@ -19,8 +17,10 @@ GOVERNANCE.md, "Authoritative records and the OWNERS file").
 | Andy Anderson   | @clubanderson | Chief Maintainer | hub, spokes, dashboard, releases | IBM            |
 | James Reilly    | @hanthor      | Maintainer       | standalone/spoke deployments, packaging, community | Universal Blue |
 | Doug Baggett    | @Danathar     | Maintainer       | spoke operations, testing, adopter feedback | Independent    |
+| Nic Jackson     | @nicholasjackson | Maintainer     | distributed systems, developer experience, CNCF services | IBM            |
+| Kelly Abuelsaad | @abuelsaad    | Maintainer       | enterprise adoption, CNCF onboarding, maintainer services | IBM            |
 
-All three Maintainers are also approvers and reviewers in the root
+All Maintainers are also approvers and reviewers in the root
 `OWNERS` file.
 
 The **Chief Maintainer** is the tie-breaker of last resort when a simple
@@ -133,11 +133,11 @@ Requirements:
   convert the decision to a simple-majority vote.
 
 Process: the nominating Maintainer opens a PR updating **all maintainer
-records together** - this table, the root `OWNERS` file, and (while it
-remains authoritative) the upstream GOVERNANCE-HIVE.md table - linking
-the nomination thread. Ladder advancement requests are reviewed by the
-Committee at least monthly. On approval, the Chief Maintainer grants
-org/repo permissions and updates CNCF maintainer lists.
+records together** - this table, the root `OWNERS` file, and the project
+governance maintainer table - linking the nomination thread. Ladder
+advancement requests are reviewed by the Committee at least monthly. On
+approval, the Chief Maintainer grants org/repo permissions and updates
+CNCF maintainer lists.
 
 ## Inactivity, Stepping Down, and Removal
 
@@ -152,11 +152,8 @@ org/repo permissions and updates CNCF maintainer lists.
   advance pause this clock for up to 6 months.
 - **Removal for cause** (Code of Conduct violation, abuse of access,
   repeated violation of the AI-agent accountability rules): **2/3
-  supermajority** of the other Maintainers, per GOVERNANCE.md. While the
-  project lives in the KubeStellar org, a majority vote of the
-  KubeStellar Steering Committee may also remove a Maintainer (per
-  GOVERNANCE-HIVE.md); that path retires on migration to a neutral org.
-  Access is revoked immediately upon the vote closing; registered agents
-  of a removed Maintainer are suspended until reassigned to another
-  responsible human. Removals update all maintainer records (this file,
-  `OWNERS`, and the upstream table) in one coordinated change.
+  supermajority** of the other Maintainers, per GOVERNANCE.md. Access is
+  revoked immediately upon the vote closing; registered agents of a
+  removed Maintainer are suspended until reassigned to another responsible
+  human. Removals update all maintainer records in one coordinated
+  change.

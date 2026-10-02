@@ -38,22 +38,16 @@ Three records describe who the Maintainers are, and they **must agree**:
 
 1. [MAINTAINERS.md](MAINTAINERS.md) in this repository,
 2. the root `OWNERS` file (reviewers/approvers used by CI and tooling),
-3. while the project lives in the KubeStellar org, the upstream
-   Maintainer Committee table in
-   [kubestellar/kubestellar GOVERNANCE-HIVE.md](https://github.com/kubestellar/kubestellar/blob/main/GOVERNANCE-HIVE.md),
-   which is the authoritative record.
+3. the maintainer table in
+   [hivecommons/hive GOVERNANCE.md](https://github.com/hivecommons/hive/blob/v5/GOVERNANCE.md).
 
 Any drift between these files is a governance bug: it is fixed by PR as
 soon as discovered and disclosed in CNCF due-diligence materials. Every
 Maintainer lifecycle change is made as a single PR (or coordinated PRs)
 updating all applicable records together.
 
-**Migration note.** If the project moves to a neutral org (working name
-`hivecommons`), the content of GOVERNANCE-HIVE.md migrates into this
-repository, this document and MAINTAINERS.md become the sole
-authoritative records, and the upstream pointer — including the
-KubeStellar Steering Committee's role in maintainer removal — is retired
-in the same change.
+**Migration note.** Hive has moved to the neutral `hivecommons` org; the
+historical KubeStellar governance file is retained only as a pointer.
 
 Maintainer Committee responsibilities:
 
@@ -85,10 +79,9 @@ beyond review itself.
 Consistent with existing practice, **adding a Maintainer** (or Reviewer)
 is not a formal vote: an existing Maintainer nominates, the Committee
 confirms by **lazy consensus (7 days)**, and the change lands as a PR
-updating all the maintainer records listed above (MAINTAINERS.md, OWNERS,
-and — while it remains authoritative — GOVERNANCE-HIVE.md). Ladder
-advancement requests are reviewed by the Committee at least **monthly**.
-Removal for cause is a supermajority vote (below).
+updating all the maintainer records listed above. Ladder advancement
+requests are reviewed by the Committee at least **monthly**. Removal for
+cause is a supermajority vote (below).
 
 ### Votes
 
@@ -187,7 +180,5 @@ This document is amended by pull request. An amendment requires a
 **2/3 supermajority** vote of the Maintainer Committee, preceded by the
 comment period described under "Votes" (one week; 14 days if the
 Committee is below 3 members). The PR description must summarize the
-change and link the vote thread. While GOVERNANCE-HIVE.md remains the
-authoritative upstream record, amendments that touch the Maintainer
-roster or Committee structure are proposed against both documents
-together.
+change and link the vote thread. Amendments that touch the Maintainer
+roster or Committee structure update all maintainer records together.
