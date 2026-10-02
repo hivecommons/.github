@@ -18,7 +18,7 @@ GOVERNANCE.md, "Authoritative records and the OWNERS file").
 | James Reilly    | @hanthor      | Maintainer       | standalone/spoke deployments, packaging, community | Universal Blue |
 | Doug Baggett    | @Danathar     | Maintainer       | spoke operations, testing, adopter feedback | Independent    |
 | Nic Jackson     | @nicholasjackson | Maintainer     | distributed systems, developer experience, CNCF services | IBM            |
-| Kelly Abuelsaad | @abuelsaad    | Maintainer       | enterprise adoption, CNCF onboarding, maintainer services | IBM            |
+| Kelly Abuelsaad | @kellyaa      | Maintainer       | enterprise adoption, CNCF onboarding, maintainer services | IBM            |
 
 All Maintainers are also approvers and reviewers in the root
 `OWNERS` file.
