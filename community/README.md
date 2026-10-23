@@ -9,7 +9,7 @@
 - **Community meeting:** every other Thursday, 10:00 AM ET — [get the invite](https://hivecommons.dev/meet) — [calendar (browser)](https://calendar.google.com/calendar/embed?src=b43dc28a888d316aa1fe4a47bf3038cd1bca7bbb2b5cdbf5e7ecb9cc10672a95%40group.calendar.google.com) · [iCal](https://calendar.google.com/calendar/ical/b43dc28a888d316aa1fe4a47bf3038cd1bca7bbb2b5cdbf5e7ecb9cc10672a95%40group.calendar.google.com/public/basic.ics)
 - **Meeting notes:** [running notes document](https://hivecommons.dev/agenda)
 - **YouTube:** [hivecommons.dev/tv](https://hivecommons.dev/tv) — meeting recordings and demos
-- **Issues / roadmap:** [hivecommons/hive](https://github.com/hivecommons/hive) · [ROADMAP.md](../governance/ROADMAP.md)
+- **Issues / roadmap:** [hivecommons/hive](https://github.com/hivecommons/hive) · [ROADMAP.md](../ROADMAP.md)
 
 Joining **hivecommons-dev** adds the community meeting to your calendar
 automatically (the recurring invite is sent to the group).

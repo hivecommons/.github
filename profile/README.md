@@ -16,6 +16,7 @@
 | **promptargs** | Prompt templates with variable substitution | [hivecommons/promptargs](https://github.com/hivecommons/promptargs) · npm `@hivecommons/promptargs` |
 | **rationguard** | Real-time rationalization detection for agent output | [hivecommons/rationguard](https://github.com/hivecommons/rationguard) · npm `@hivecommons/rationguard` |
 | **hotshot** | Screenshots straight into the terminal for AI coding assistants | [hivecommons/hotshot](https://github.com/hivecommons/hotshot) |
+| **Dibs** | Marketplace of ideas connecting ideators with hive-managed repositories | [hivecommons/dibs](https://github.com/hivecommons/dibs) · [dibs.hivecommons.dev](https://dibs.hivecommons.dev) |
 
 ## Community
 
@@ -23,7 +24,7 @@
 
 ## Governance
 
-Hive is maintained by a three-member Maintainer Committee spanning three organizations, with a documented contributor ladder, DCO-signed contributions, and explicit governance for AI-agent contributions (every merge is accountable to a human maintainer). Governance documents live in this repository: [GOVERNANCE](../GOVERNANCE.md) · [MAINTAINERS](../MAINTAINERS.md) · [CONTRIBUTING](../CONTRIBUTING.md) · [SECURITY](../SECURITY.md) · [CODE_OF_CONDUCT](../CODE_OF_CONDUCT.md) · [ROADMAP](../ROADMAP.md) · [ADOPTERS](../ADOPTERS.md).
+Hive is maintained by a three-member Maintainer Committee spanning three organizations, with a documented contributor ladder, DCO-signed contributions, and explicit governance for AI-agent contributions (every merge is accountable to a human maintainer). Governance documents live in this repository: [GOVERNANCE](https://github.com/hivecommons/.github/blob/main/GOVERNANCE.md) · [MAINTAINERS](https://github.com/hivecommons/.github/blob/main/MAINTAINERS.md) · [CONTRIBUTING](https://github.com/hivecommons/.github/blob/main/CONTRIBUTING.md) · [SECURITY](https://github.com/hivecommons/.github/blob/main/SECURITY.md) · [CODE_OF_CONDUCT](https://github.com/hivecommons/.github/blob/main/CODE_OF_CONDUCT.md) · [ROADMAP](https://github.com/hivecommons/.github/blob/main/ROADMAP.md) · [ADOPTERS](https://github.com/hivecommons/.github/blob/main/ADOPTERS.md).
 
 ## Get involved
 
