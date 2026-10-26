@@ -23,7 +23,7 @@
 
 ## Governance
 
-Hive is maintained by a three-member Maintainer Committee spanning three organizations, with a documented contributor ladder, DCO-signed contributions, and explicit governance for AI-agent contributions (every merge is accountable to a human maintainer). Governance documents live in this repository: [GOVERNANCE](../GOVERNANCE.md) · [MAINTAINERS](../MAINTAINERS.md) · [CONTRIBUTING](../CONTRIBUTING.md) · [SECURITY](../SECURITY.md) · [CODE_OF_CONDUCT](../CODE_OF_CONDUCT.md) · [ROADMAP](../ROADMAP.md) · [ADOPTERS](../ADOPTERS.md).
+Hive is maintained by a three-member Maintainer Committee spanning three organizations, with a documented contributor ladder, DCO-signed contributions, and explicit governance for AI-agent contributions (every merge is accountable to a human maintainer). Governance documents live in this repository: [GOVERNANCE](../GOVERNANCE.md) · [MAINTAINERS](../MAINTAINERS.md) · [CONTRIBUTING](../CONTRIBUTING.md) · [SECURITY](../SECURITY.md) · [CODE_OF_CONDUCT](../CODE_OF_CONDUCT.md) · [ROADMAP](../ROADMAP.md) · [ADOPTERS](https://github.com/hivecommons/hive/blob/HEAD/ADOPTERS.md).
 
 ## Get involved
 
